@@ -1,28 +1,23 @@
 # thedjvic.com
 
-V!C DJ website — built with Next.js 14, TypeScript, CSS Modules.
+Personal DJ website for V!C (Vic Dubbeld) — a Portland-based open format DJ specializing in R&B, soul, funk, and hip-hop on vinyl and digital.
 
+Live at [thedjvic.com](https://thedjvic.com)
 
-Open [https://thedjvic.com/](https://thedjvic.com/).
+## About the project
 
-## Project structure
+Built from scratch in a single session as part of a larger effort to establish V!C's online presence and DJ brand. The goal was a clean, bold, editorial site that feels like a music site — not a generic DJ template. Modeled loosely after [adjnamedflow.com](https://www.adjnamedflow.com) but with its own identity.
 
-```
-app/
-  layout.tsx       # Root layout, metadata, global font import
-  page.tsx         # Homepage — assembles all components
-  globals.css      # CSS variables, brand colors, base styles
+Features include an upcoming shows section, mix archive, light/dark mode toggle with localStorage persistence, SEO metadata optimized for Portland DJ search terms, and Vercel Analytics.
 
-components/
-  Nav.tsx / .module.css
-  Hero.tsx / .module.css
-  Stats.tsx / .module.css
-  About.tsx / .module.css
-  Mixes.tsx / .module.css
-  Venues.tsx / .module.css
-  BookCTA.tsx / .module.css
-  Footer.tsx / .module.css
-```
+Deployed on Vercel with DNS managed through GoDaddy → Vercel nameservers. Auto-deploys on every push to main.
+
+## Stack
+
+- Next.js 15 (App Router)
+- TypeScript
+- CSS Modules
+- Vercel (hosting + analytics)
 
 ## Brand
 
@@ -30,3 +25,25 @@ components/
 - Display font: Bebas Neue
 - Mono font: DM Mono
 - Body font: DM Sans
+
+## Project structure
+
+```
+app/
+  layout.tsx        # Root layout, metadata, SEO
+  page.tsx          # Homepage — assembles all components
+  globals.css       # CSS variables, light/dark theme tokens
+
+components/
+  Nav.tsx           # Sticky nav with theme toggle
+  Hero.tsx          # Full photo split layout
+  Stats.tsx         # 3-up stat bar
+  About.tsx         # Two-photo grid with bio
+  Shows.tsx         # Upcoming sets with dates and venues
+  Mixes.tsx         # Mix archive linking to YouTube
+  Venues.tsx        # Venue tag grid
+  BookCTA.tsx       # Booking call to action
+  ThemeProvider.tsx # Light/dark context + localStorage
+  ThemeToggle.tsx   # Toggle button in nav
+  Footer.tsx        # Social links
+```
