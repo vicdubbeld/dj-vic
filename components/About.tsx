@@ -30,16 +30,21 @@ export default function About() {
         </div>
         <div className={styles.bio}>
           <p className={styles.text}>
-            V!C is an <strong>open format DJ</strong> based in Portland, Oregon —
-            digging deep in <strong>R&B, soul, funk, and hip-hop</strong>, on vinyl
-            and digital. Every set is built around the feeling in the room.
+            Some DJs read the room. Vic Dubbeld built his ear for it. Known as V!C, he's a{' '}
+            <strong>Portland DJ</strong> specializing in open format — digging deep in{' '}
+            <strong>R&B, soul, funk, and hip-hop</strong>, on vinyl and digital. Three years
+            in the professional circuit, playing the records that made everything else possible
+            and chasing the feeling a great song leaves in a room.
           </p>
           <p className={styles.text} style={{ marginTop: '1rem' }}>
-            Resident at <strong>After Ours, Pink Rabbit, Soho House, Battle Creek Cellars, and more PDX spots</strong>.
-            Available for clubs, corporate events, and private parties.
+            V!C holds residencies across Portland's most respected venues — After Ours, Pink
+            Rabbit, Soho House, and Kelly's Olympian — where he recently opened for Bungalow
+            Collect to a sold-out crowd. This summer he joins the Pearl District Farmers Market
+            as part of the Reignite the Pearl initiative. Available for{' '}
+            <strong>Portland club dates, corporate events, and private parties</strong>.
           </p>
           <p className={styles.venues}>
-            After Ours · Pink Rabbit · Soho House · Battle Creek Cellars · Fools & Horses
+            After Ours · Pink Rabbit · Soho House · Kelly's Olympian · Fools & Horses · Battle Creek Cellars
           </p>
         </div>
       </div>
