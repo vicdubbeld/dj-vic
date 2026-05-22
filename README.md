@@ -6,7 +6,7 @@ Live at [thedjvic.com](https://thedjvic.com)
 
 ## About the project
 
-Built from scratch in a single session as part of a larger effort to establish V!C's online presence and DJ brand. The goal was a clean, bold, editorial site that feels like a music site — not a generic DJ template. Modeled loosely after [adjnamedflow.com](https://www.adjnamedflow.com) but with its own identity.
+Built from scratch in a single session as part of a larger effort to establish V!C's online presence and DJ brand. The goal was a clean, bold, editorial site that feels like a music site — not a generic DJ template.
 
 Features include an upcoming shows section, mix archive, light/dark mode toggle with localStorage persistence, SEO metadata optimized for Portland DJ search terms, and Vercel Analytics.
 
