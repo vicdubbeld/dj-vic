@@ -11,7 +11,7 @@ export default function Nav() {
         <a href="#about">About</a>
         <a href="#shows">Shows</a>
         <a href="#mixes">Mixes</a>
-        <a href="#venues">Venues</a>
+        {/* <a href="#venues">Venues</a> */}
         <a href="#book">Book</a>
         <ThemeToggle />
       </div>
