@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root,
+[data-theme='dark'] {
+  --brand: #ff6404;
+  --brand-dark: #cc4f00;
+  --bg: #0a0a0a;
+  --bg-surface: #111111;
+  --bg-raised: #161616;
+  --border: #222222;
+  --border-subtle: #1a1a1a;
+  --text-primary: #f0ede6;
+  --text-secondary: #888888;
+  --text-muted: #444444;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+[data-theme='light'] {
+  --brand: #ff6404;
+  --brand-dark: #cc4f00;
+  --bg: #f5f2ed;
+  --bg-surface: #ede9e2;
+  --bg-raised: #e8e3da;
+  --border: #d4cfc6;
+  --border-subtle: #ddd8cf;
+  --text-primary: #0a0a0a;
+  --text-secondary: #555555;
+  --text-muted: #999999;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: 24px;
+}
+
+.section {
+  padding: 48px 32px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 36px 20px;
+  }
+}

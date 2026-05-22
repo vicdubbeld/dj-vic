@@ -1,0 +1,102 @@
+.section {
+  padding: 48px 32px;
+  border-top: 1px solid var(--border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+}
+
+.photoWrap {
+  position: relative;
+  overflow: hidden;
+  min-height: 280px;
+}
+
+.photo {
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.4s ease;
+}
+
+.photoWrap:hover .photo {
+  transform: scale(1.03);
+}
+
+.photoTag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(240, 237, 230, 0.6);
+  background: rgba(10, 10, 10, 0.55);
+  padding: 4px 8px;
+  z-index: 1;
+}
+
+.bio {
+  background: var(--bg);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.text strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.venues {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-top: 24px;
+  line-height: 2;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .photos {
+    min-height: 240px;
+  }
+  .photoWrap {
+    min-height: 200px;
+  }
+  .bio {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 36px 20px;
+  }
+  .photos {
+    grid-template-columns: 1fr 1fr;
+  }
+}

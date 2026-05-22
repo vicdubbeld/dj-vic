@@ -1,0 +1,37 @@
+.footer {
+  padding: 24px 32px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #333;
+}
+
+.logo span {
+  color: var(--brand);
+  opacity: 0.5;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.links a {
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--brand);
+}
