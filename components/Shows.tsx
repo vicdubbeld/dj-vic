@@ -10,12 +10,6 @@ export type Show = {
 
 const shows: Show[] = [
   {
-    date: 'Sat, May 23',
-    venue: 'After Ours',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
     date: 'Thurs, June 4',
     venue: 'First Thursday at Battle Creek Cellars',
     location: 'Portland, OR',
