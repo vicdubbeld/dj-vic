@@ -16,8 +16,20 @@ const shows: Show[] = [
     time: '5pm',
   },
   {
+    date: 'Sat, June 6',
+    venue: 'Pink Rabbit | R&B Night',
+    location: 'Portland, OR',
+    time: '9pm',
+  },
+  {
     date: 'Thurs, Jun 11',
     venue: 'After Ours (Vinyl Set)',
+    location: 'Portland, OR',
+    time: '9 PM',
+  },
+  {
+    date: 'Fri, Jun 12',
+    venue: 'Fools & Horses | Reminisce R&B Night',
     location: 'Portland, OR',
     time: '9 PM',
   },
@@ -26,6 +38,12 @@ const shows: Show[] = [
     venue: 'Soho House PDX',
     location: 'Portland, OR',
     time: '7 PM',
+  },
+  {
+    date: 'Fri, Jun 26',
+    venue: 'Pink Rabbit | R&B Night',
+    location: 'Portland, OR',
+    time: '9 PM',
   },
   {
     date: 'Sat, Jun 27',
