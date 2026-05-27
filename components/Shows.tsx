@@ -13,13 +13,13 @@ const shows: Show[] = [
     date: 'Thurs, June 4',
     venue: 'First Thursday at Battle Creek Cellars',
     location: 'Portland, OR',
-    time: '5pm',
+    time: '5 pm',
   },
   {
     date: 'Sat, June 6',
     venue: 'Pink Rabbit | R&B Night',
     location: 'Portland, OR',
-    time: '9pm',
+    time: '9 pm',
   },
   {
     date: 'Thurs, Jun 11',
