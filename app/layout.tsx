@@ -5,21 +5,37 @@ import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
-  title: 'V!C (DJ Vic) — Portland DJ for Hire | R&B, Soul, Funk & Hip-Hop',
-  description: 'Vic Dubbeld, open format DJ based in Portland, Oregon. Specializing in R&B, soul, funk, and hip-hop — vinyl and digital. Available for clubs, corporate events, and private parties.',
+  metadataBase: new URL('https://thedjvic.com'),
+  title: 'V!C (DJ Vic) — Portland | The Music Your Event Will Be Remembered For',
+  description: 'Vic Dubbeld brings soul-forward curation to clubs, brand activations, and private events across Portland. R&B, funk, hip-hop — vinyl and digital. Inquire for availability.',
   keywords: ['DJ Vic', 'DJ Vic Portland', 'V!C DJ', 'Vic Dubbeld', 'Portland DJ', 'open format DJ Portland', 'Portland DJ for hire', 'R&B DJ Portland', 'soul funk hip hop DJ Portland'],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://thedjvic.com',
+  },
   openGraph: {
-    title: 'V!C (DJ Vic) — Portland DJ for Hire',
-    description: 'Vic Dubbeld, open format DJ based in Portland, Oregon. R&B, soul, funk, and hip-hop — vinyl and digital.',
+    title: 'V!C (DJ Vic) — Portland | The Music Your Event Will Be Remembered For',
+    description: 'Vic Dubbeld brings soul-forward curation to clubs, brand activations, and private events across Portland. R&B, funk, hip-hop — vinyl and digital.',
     url: 'https://thedjvic.com',
     siteName: 'V!C',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/profile.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'V!C — DJ Vic Dubbeld, Portland',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'V!C (DJ Vic) — Portland DJ for Hire',
-    description: 'Vic Dubbeld, open format DJ based in Portland, Oregon. R&B, soul, funk, and hip-hop — vinyl and digital.',
+    title: 'V!C (DJ Vic) — Portland | The Music Your Event Will Be Remembered For',
+    description: 'Vic Dubbeld brings soul-forward curation to clubs, brand activations, and private events across Portland. R&B, funk, hip-hop — vinyl and digital.',
   },
 }
 
