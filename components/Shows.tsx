@@ -11,6 +11,12 @@ export type Show = {
 const shows: Show[] = [
   {
     date: 'Thurs, Jun 11',
+    venue: 'Kearney Plaza Rooftop | Private',
+    location: 'Portland, OR',
+    time: '4 PM',
+  },
+  {
+    date: 'Thurs, Jun 11',
     venue: 'After Ours | Vinyl Night',
     location: 'Portland, OR',
     time: '10 PM',
@@ -26,6 +32,12 @@ const shows: Show[] = [
     venue: 'Soho House PDX',
     location: 'Portland, OR',
     time: '7 PM',
+  },
+  {
+    date: 'Fri, Jun 26',
+    venue: 'The Gossamer Rooftop | Private',
+    location: 'Portland, OR',
+    time: '6 PM',
   },
   {
     date: 'Fri, Jun 26',
