@@ -58,7 +58,7 @@ const shows: Show[] = [
     time: '10 PM',
   },
   {
-    date: 'Thurs, Aug 15',
+    date: 'Thurs, Aug 20',
     venue: 'After Ours | Vinyl R&B',
     location: 'Portland, OR',
     time: '10 PM',
