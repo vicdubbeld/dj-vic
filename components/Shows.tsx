@@ -34,7 +34,7 @@ const shows: Show[] = [
     time: '7 PM',
   },
   {
-    date: 'Fri, Jul 18',
+    date: 'Sat, Jul 18',
     venue: 'After Ours | R&B + Hip Hop',
     location: 'Portland, OR',
     time: '10 PM',
