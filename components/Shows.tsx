@@ -10,48 +10,6 @@ export type Show = {
 
 const shows: Show[] = [
   {
-    date: 'Thurs, Jun 11',
-    venue: 'Kearney Plaza Rooftop | Private',
-    location: 'Portland, OR',
-    time: '4 PM',
-  },
-  {
-    date: 'Thurs, Jun 11',
-    venue: 'After Ours | Vinyl Night',
-    location: 'Portland, OR',
-    time: '10 PM',
-  },
-  {
-    date: 'Fri, Jun 12',
-    venue: 'Fools & Horses | Reminisce R&B Night',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
-    date: 'Sat, Jun 13',
-    venue: 'Soho House PDX',
-    location: 'Portland, OR',
-    time: '7 PM',
-  },
-  {
-    date: 'Fri, Jun 26',
-    venue: 'The Gossamer Rooftop | Private',
-    location: 'Portland, OR',
-    time: '6 PM',
-  },
-  {
-    date: 'Fri, Jun 26',
-    venue: 'Pink Rabbit | R&B Night',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
-    date: 'Sat, Jun 27',
-    venue: 'After Ours',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
     date: 'Thurs, Jul 2',
     venue: 'First Thursday at Battle Creek Cellars',
     location: 'Portland, OR',
@@ -59,10 +17,58 @@ const shows: Show[] = [
   },
   {
     date: 'Thurs, Jul 9',
-    venue: 'Secret Grove (Date Night Vinyl Set)',
+    venue: 'Secret Grove (Vinyl Set)',
     location: 'Portland, OR',
     time: '9 PM',
   },
+  {
+    date: 'Fri, Jul 10',
+    venue: 'Pink Rabbit | R&B + Hip Hop',
+    location: 'Portland, OR',
+    time: '9 PM',
+  },
+  {
+    date: 'Fri, Jul 17',
+    venue: 'Pink Rabbit | Patio Party',
+    location: 'Portland, OR',
+    time: '7 PM',
+  },
+  {
+    date: 'Fri, Jul 18',
+    venue: 'After Ours | R&B + Hip Hop',
+    location: 'Portland, OR',
+    time: '10 PM',
+  },
+  {
+    date: 'Fri, Jul 24',
+    venue: 'Battle Creek | R&B',
+    location: 'Portland, OR',
+    time: '5 PM',
+  },
+  {
+    date: 'Thurs, Aug 6',
+    venue: 'First Thursday at Battle Creek Cellars',
+    location: 'Portland, OR',
+    time: '5 PM',
+  },
+  {
+    date: 'Sat, Aug 15',
+    venue: 'After Ours | R&B + Hip Hop',
+    location: 'Portland, OR',
+    time: '10 PM',
+  },
+  {
+    date: 'Thurs, Aug 15',
+    venue: 'After Ours | Vinyl R&B',
+    location: 'Portland, OR',
+    time: '10 PM',
+  },
+  {
+    date: 'Sat, Aug 22',
+    venue: 'Lulu Bar | R&B',
+    location: 'Portland, OR',
+    time: '9:30 PM',
+  }
 ]
 
 export default function Shows() {
