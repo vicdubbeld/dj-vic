@@ -22,18 +22,6 @@ const shows: Show[] = [
     time: '9 PM',
   },
   {
-    date: 'Fri, Jul 10',
-    venue: 'Pink Rabbit | R&B + Hip Hop',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
-    date: 'Fri, Jul 17',
-    venue: 'Pink Rabbit | Patio Party',
-    location: 'Portland, OR',
-    time: '7 PM',
-  },
-  {
     date: 'Sat, Jul 18',
     venue: 'After Ours | R&B + Hip Hop',
     location: 'Portland, OR',
