@@ -43,7 +43,7 @@ export default function About() {
             <strong>Portland club dates, corporate events, and private parties</strong>.
           </p>
           <p className={styles.venues}>
-            After Ours · Pink Rabbit · Soho House · Kelly's Olympian · Fools & Horses · Battle Creek Cellars
+            After Ours · Pink Rabbit · Soho House · Kelly's Olympian · Fools & Horses · Battle Creek Cellars · Two Wrongs
           </p>
         </div>
       </div>
