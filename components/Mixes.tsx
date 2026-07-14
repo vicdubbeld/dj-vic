@@ -8,8 +8,8 @@ const mixes = [
     live: true,
   },
   {
-    title: 'Live at Soho House PDX · 1 hr',
-    meta: 'All Vinyl · Laid Back Lounge · 60 min · Coming Soon',
+    title: 'Live at Soho House PDX',
+    meta: 'All Vinyl · Laid Back Lounge · 1 hr',
     href: 'https://www.youtube.com/watch?v=pBrbKAG6i9A',
     live: true,
   },
