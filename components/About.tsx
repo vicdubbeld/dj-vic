@@ -39,8 +39,7 @@ export default function About() {
           <p className={styles.text} style={{ marginTop: '1rem' }}>
             V!C holds residencies across Portland's most respected venues — After Ours, Pink
             Rabbit, Soho House, and Kelly's Olympian — where he recently opened for Bungalow
-            Collect to a sold-out crowd. This summer he joins the Pearl District Farmers Market
-            as part of the Reignite the Pearl initiative. Available for{' '}
+            Collect to a sold-out crowd. Available for{' '}
             <strong>Portland club dates, corporate events, and private parties</strong>.
           </p>
           <p className={styles.venues}>

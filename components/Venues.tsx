@@ -7,8 +7,8 @@ const venues = [
   "Kelly's Olympian",
   'Fools & Horses',
   'Lulu Bar',
+  'Two Wrongs',
   'Battle Creek Wine Cellars',
-  'Pearl District Farmers Market',
 ]
 
 export default function Venues() {
