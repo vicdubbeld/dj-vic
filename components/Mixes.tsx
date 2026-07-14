@@ -8,10 +8,10 @@ const mixes = [
     live: true,
   },
   {
-    title: 'Live at Soho House PDX',
+    title: 'Live at Soho House PDX · 1 hr',
     meta: 'All Vinyl · Laid Back Lounge · 60 min · Coming Soon',
-    href: 'https://youtube.com', // TODO: replace with actual YouTube URL
-    live: false,
+    href: 'https://www.youtube.com/watch?v=pBrbKAG6i9A',
+    live: true,
   },
   {
     title: 'Day Party at Battle Creek Cellars',
