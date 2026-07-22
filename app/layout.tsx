@@ -3,6 +3,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thedjvic.com'),
@@ -50,6 +51,9 @@ export default function RootLayout({
         <ThemeProvider>{children}</ThemeProvider>
         <Analytics />
         <SpeedInsights/>
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+        )}
       </body>
     </html>
   )
