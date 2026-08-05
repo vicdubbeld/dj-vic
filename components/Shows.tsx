@@ -10,34 +10,28 @@ export type Show = {
 
 const shows: Show[] = [
   {
-    date: 'Thurs, Jul 2',
-    venue: 'First Thursday at Battle Creek Cellars',
-    location: 'Portland, OR',
-    time: '5 PM',
-  },
-  {
-    date: 'Thurs, Jul 9',
-    venue: 'Secret Grove (Vinyl Set)',
-    location: 'Portland, OR',
-    time: '9 PM',
-  },
-  {
-    date: 'Sat, Jul 18',
-    venue: 'After Ours | R&B + Hip Hop',
-    location: 'Portland, OR',
-    time: '10 PM',
-  },
-  {
-    date: 'Fri, Jul 24',
-    venue: 'Battle Creek | R&B',
-    location: 'Portland, OR',
-    time: '5 PM',
-  },
-  {
     date: 'Thurs, Aug 6',
     venue: 'First Thursday at Battle Creek Cellars',
     location: 'Portland, OR',
     time: '5 PM',
+  },
+  {
+    date: 'Fri, Aug 7',
+    venue: 'The Malarkey',
+    location: 'Portland, OR',
+    time: '8 PM',
+  },
+  {
+    date: 'Thurs, Aug 13',
+    venue: 'TBD',
+    location: 'Portland, OR',
+    time: '? PM',
+  },
+  {
+    date: 'Fri, Aug 14',
+    venue: 'Soho PDX | R&B + Hip Hop',
+    location: 'Portland, OR',
+    time: '7 PM',
   },
   {
     date: 'Sat, Aug 15',
@@ -56,6 +50,12 @@ const shows: Show[] = [
     venue: 'Lulu Bar | R&B',
     location: 'Portland, OR',
     time: '9:30 PM',
+  },
+  {
+    date: 'Sat, Aug 29',
+    venue: 'Fields Park Grand Opening',
+    location: 'Portland, OR',
+    time: 'All Day',
   }
 ]
 
