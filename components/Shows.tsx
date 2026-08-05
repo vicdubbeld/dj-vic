@@ -29,7 +29,7 @@ const shows: Show[] = [
   },
   {
     date: 'Fri, Aug 14',
-    venue: 'Soho PDX | R&B + Hip Hop',
+    venue: 'Soho House PDX | R&B + Hip Hop',
     location: 'Portland, OR',
     time: '7 PM',
   },
