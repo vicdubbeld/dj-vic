@@ -23,9 +23,9 @@ const shows: Show[] = [
   },
   {
     date: 'Thurs, Aug 13',
-    venue: 'TBD',
+    venue: 'The Malarkey',
     location: 'Portland, OR',
-    time: '? PM',
+    time: '8 PM',
   },
   {
     date: 'Fri, Aug 14',
