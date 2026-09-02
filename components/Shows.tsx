@@ -10,53 +10,47 @@ export type Show = {
 
 const shows: Show[] = [
   {
-    date: 'Thurs, Aug 6',
+    date: 'Thurs, Sept 3',
     venue: 'First Thursday at Battle Creek Cellars',
     location: 'Portland, OR',
     time: '5 PM',
   },
   {
-    date: 'Fri, Aug 7',
-    venue: 'The Malarkey',
-    location: 'Portland, OR',
-    time: '8 PM',
+    date: 'Sat, Sept 5',
+    venue: 'A Toast to Summer | Oxford League',
+    location: '3309 N Mississippi Ave',
+    time: '4 PM – 2 AM',
   },
   {
-    date: 'Thurs, Aug 13',
-    venue: 'The Malarkey',
-    location: 'Portland, OR',
-    time: '8 PM',
+    date: 'Sun, Sept 6',
+    venue: "Pearl District Farmer's Market",
+    location: 'NW 13th between Everett & Glisan',
+    time: '10 AM – 2 PM',
   },
   {
-    date: 'Fri, Aug 14',
-    venue: 'Soho House PDX | R&B + Hip Hop',
-    location: 'Portland, OR',
+    date: 'Thurs, Sept 10',
+    venue: 'After Ours | Vinyl Set',
+    location: '2226 NE Broadway',
+    time: '10 PM',
+  },
+  {
+    date: 'Fri, Sept 11',
+    venue: 'Battle Creek Cellars',
+    location: '820 NW 13th Ave',
+    time: '5 PM',
+  },
+  {
+    date: 'Sat, Sept 19',
+    venue: 'Pearl District Block Party',
+    location: 'NW 13th Ave (between Hoyt & Irving)',
+    time: '11 AM – 4 PM',
+  },
+  {
+    date: 'Thurs, Sept 24',
+    venue: 'The Malarkey',
+    location: '1210 NW Hoyt St',
     time: '7 PM',
   },
-  {
-    date: 'Sat, Aug 15',
-    venue: 'After Ours | R&B + Hip Hop',
-    location: 'Portland, OR',
-    time: '10 PM',
-  },
-  {
-    date: 'Thurs, Aug 20',
-    venue: 'After Ours | Vinyl R&B',
-    location: 'Portland, OR',
-    time: '10 PM',
-  },
-  {
-    date: 'Sat, Aug 22',
-    venue: 'Lulu Bar | R&B',
-    location: 'Portland, OR',
-    time: '9:30 PM',
-  },
-  {
-    date: 'Sat, Aug 29',
-    venue: 'Fields Park Grand Opening',
-    location: 'Portland, OR',
-    time: 'All Day',
-  }
 ]
 
 export default function Shows() {
